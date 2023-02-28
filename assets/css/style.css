@@ -47,3 +47,23 @@ body {
 .clock span.time {
     font-size: 16px;
 }
+
+@media (max-width: 600px) {
+    .clock {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .clock div {
+        width: 30%;
+    }
+
+    .clock span {
+        font-size: 40px;
+    }
+
+    .clock span.time {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+}
